@@ -1,0 +1,6 @@
+[workspace]
+resolver = "2"
+members = ["crates/*"]
+
+[workspace.dependencies]
+gpui = { git = "https://github.com/zed-industries/zed.git", rev = "90c1d8f734615552297a65e12dd430bf0825cdb0" }
